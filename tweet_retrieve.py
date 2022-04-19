@@ -1,8 +1,5 @@
 
 import tweepy
-bearer_token = "AAAAAAAAAAAAAAAAAAAAAJ2RbgEAAAAA29vIB6D3PxMaXhWiB7KRwEEBMnE%3Dx55euJQbJow5GmJTVCP4QAFVqiKwK4FT5HIxd8fPEr2eH1lvUi"
-
-client = tweepy.Client(bearer_token)
 
 def get_tweets(user_id, client, num_tweets=10, max_results_per_page=5):
     pages = num_tweets//max_results_per_page
