@@ -23,5 +23,23 @@ users = {
 
     'openai' : 4398626122,
     
-    'mkbhd' : 29873662
+    'mkbhd' : 29873662,
+
+    '_manishbhasin' : 250701810,
+
+    'billgates' : 50393960,
+
+    'sundarpichai' : 14130366,
+
+    'tim_cook' : 1636590253,
+
+    'jeffbezos' : 15506669,
+
+    'emilychangtv' : 74130577,
+
+    'dhh' : 14561327,
+
+    'reshmasaujani' : 57172253,
+
+    'jeffweiner' : 20348377
 }

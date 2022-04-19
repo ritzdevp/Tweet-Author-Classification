@@ -10,7 +10,7 @@ load_dotenv()
 bearer_token = os.getenv('BEARER_TOKEN')
 client = tweepy.Client(bearer_token)
 
-num_tweets = 2500
+num_tweets = 2800
 max_results_per_page = 100
 
 data = {}
