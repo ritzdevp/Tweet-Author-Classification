@@ -1,6 +1,7 @@
 
 import tweepy
 
+#max_results per page can be in [5,100]
 def get_tweets(user_id, client, num_tweets=10, max_results_per_page=5):
     pages = num_tweets//max_results_per_page
     tweet_text = {}
