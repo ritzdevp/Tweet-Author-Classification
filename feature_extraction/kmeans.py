@@ -14,8 +14,8 @@ def helper(counter_object):
 feature_data = np.load('../tfidf_features.npz')
 
 tfidf_vectors = feature_data['name1']
-# user_labels = feature_data['name2']
 
+#Applying K means
 n_clusters = 5
 kmeans = KMeans(n_clusters=n_clusters, random_state=42)
 kmeans.fit(tfidf_vectors)
